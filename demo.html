@@ -8,8 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" type="text/css" href="./uikit-3.0.0-beta.40/css/uikit.min.css" />
+    <link rel="stylesheet" type="text/css" href="./uikit-3.0.0-beta.40/css/hamburger.css" />
     <script src="./uikit-3.0.0-beta.40/js/uikit.min.js"></script>
     <script src="main.js"></script>
+    <style>
+        
+    </style>
 </head>
 
 <body>
@@ -22,21 +26,27 @@
                 </a>
             </div>
             <div class="uk-navbar-right">
-
-
                 <ul class="uk-navbar-nav">
                     <li>
-                        <a href="kamrong.html" style="color:white; font-size:20px;">แบบคำร้อง/เอกสารบัณฑิต</a>
+                        <a href="kamrong.html">แบบคำร้อง/เอกสารบัณฑิต</a>
                     </li>
                     <li>
-                        <a href="meeting.html" style="color:white; font-size:20px;">รายงานการประชุมกรรมการบัณฑิต</a>
+                        <a href="meeting.html">รายงานการประชุมกรรมการบัณฑิต</a>
                     </li>
                     <li>
-                        <a href="contact.html" style="color:white; font-size:20px;">Contact Us</a>
+                        <a href="contact.html">Contact Us</a>
                     </li>
                 </ul>
-
+                <div class="dropdown">
+                    <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#"></a>
+                    <div class="dropdown-content">
+                        <a href="kamrong.html">แบบคำร้อง/เอกสารบัณฑิต</a>
+                        <a href="meeting.html">รายงานการประชุมกรรมการบัณฑิต</a>
+                        <a href="contact.html">Contact Us</a>
+                    </div>
+                </div>
             </div>
+
         </nav>
 
         <!-- <div class="uk-navbar-dropbar"></div> -->
@@ -50,25 +60,25 @@
             <ul class="uk-slideshow-items">
                 <li>
                     <img src="1.jpg" alt="" uk-cover>
-                    <div class="uk-overlay uk-overlay-primary uk-position-bottom">
+                    <div class="uk-overlay uk-overlay-primary uk-position-bottom" style="height:4em;">
                         <a>
-                            <h1>มหาวิทยาลัยสีเขียว</h1>
+                            <h2>มหาวิทยาลัยสีเขียว</h2>
                         </a>
                     </div>
                 </li>
                 <li>
                     <img src="2.jpg" alt="" uk-cover>
-                    <div class="uk-overlay uk-overlay-primary uk-position-bottom">
+                    <div class="uk-overlay uk-overlay-primary uk-position-bottom" style="height:4em">
                         <a>
-                            <h1>มหาวิทยาลัยสีเขียว ท่าพระจันทร์</h1>
+                            <h2>มหาวิทยาลัยสีเขียว ท่าพระจันทร์</h2>
                         </a>
                     </div>
                 </li>
                 <li>
                     <img src="3.jpg" alt="" uk-cover>
-                    <div class="uk-overlay uk-overlay-primary uk-position-bottom">
+                    <div class="uk-overlay uk-overlay-primary uk-position-bottom" style="height:4em">
                         <a>
-                            <h1>นักศึกษาของมหาวิทยาลัยสีเขียว</h1>
+                            <h2>นักศึกษาของมหาวิทยาลัยสีเขียว</h2>
                         </a>
                     </div>
                 </li>
@@ -134,7 +144,7 @@
 
 
     <div class="uk-position-relative">
-        <nav class="uk-navbar-container" uk-navbar="dropbar: true" style="background-color:#bb0404; height:50px;">
+        <nav class="uk-navbar-container" uk-navbar="dropbar: true" style="background-color:#bb0404; height:118px;">
             <div class="uk-navbar-left">
 
                 <a href="demo.html" style="visibility:hidden">
